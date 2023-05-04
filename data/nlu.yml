@@ -1,0 +1,167 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+
+
+
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    -who are you?
+
+- intent: high_package
+  examples:
+    -What is the maximum salary offered to students at sjcit?
+    -Could you tell me the highest pay package that has been offered to sjcit students?
+    -What is the highest salary that sjcit students have received from recruiters?
+    -I'm interested in knowing the highest package that has been given to sjcit graduates. Could you provide that information?
+    -Can you tell me what the top pay package offered to sjcit students is?
+    -what is the highest package in this college?
+
+- intent: admission_procedure
+  examples:
+    -How do I apply for admission to SJCIT?
+    -Can you tell me about the admission process for SJCIT?
+    -What are the steps to apply for admission to SJCIT?
+    -I'm interested in applying to SJCIT. Could you walk me through the admission procedure?
+    -What is the process for getting admission to SJCIT?
+    -how can i get into this college?
+    -what are the exams to be written to get into sjcit?
+    -exams to be cleared for admission in sjcit?
+
+- intent: ug_branches
+  examples:
+    -what are different streams does sjcit offeres for ug students?
+    - how many branches are there in sjcit?
+    - what are the different branches in this college?
+    - what are the ug programs offered in sjcit
+    - what are the different courses for ug students 
+    - how many departments does sjcit got ?
+    - how many departments does this college have ?
+    - what are different streams does sjcit offeres?
+    -no of branches in sjcit?
+    -what is the courses for ug students?
+
+
+- intent: pg_branches
+  examples:
+    -what are different streams does sjcit offeres for pg students?
+    - how many branches are there in sjcit?
+    - what are the different branches in this college?
+    - what are the pg programs offered in sjcit
+    - what are the different courses for pg students
+    - how many departments does sjcit got ?
+    - how many departments does this college have for pg ?
+    - what are different streams does sjcit offeres?
+    -what are the courses offerd by the college for masters?
+    -no of branches in sjcit?
+    -what is the courses for pg students?
+
+- intent: eligibile_crt
+  examples:
+    -What are the eligibility requirements for admission to SJCIT?
+    -Could you tell me about the eligibility criteria for getting into SJCIT?
+    -What qualifications do I need to have to be eligible for admission to SJCIT?
+    -I want to know the eligibility conditions for getting admission to SJCIT. Could you please provide that information?
+    -What are the minimum requirements for admission to SJCIT?
+
+- intent: contact_info
+  examples:
+    -can i get the email id of the college?
+    -can i get the phone number of the college?
+    -what are the account details of the college?
+    -can i get the fax number of the college?
+    -can i get the register number?
+    -can i get the contact details of the principal?
+    -can i get the Receptionist number of the college?
+
+- intent: location_info
+  examples:
+    -where is sjcit exactly situated ?
+    -what is the address of the college?
+    -where is sjcit located?
+
+- intent: company_vi
+  examples:
+    -how many companies have visited this college?
+    -what is the number of offer letter students have got?
+    -no of companies visited sjcit?
+    -total offer letters in sjcit this year?
+    -total no of companies visited this year?
+    -which are the top companies visited sjcit college this year?
+
+- intent: place_percent
+  examples:
+    -what is the placement percentage in this college every year?
+    -what is total number of students placed this year?
+    -how is the placement cell in sjcit?
+
+- intent: fee_management
+  examples:
+    -what is the fee structure in sjcit college for management quota students?
+    -what is the fee for computer science(cse) and engineering management quota students in this college?
+    -what is the fee for information science and engineering(ise) management quota students in this college?
+    -what is the fee for electronics and communication engineering(ec) management quota students in this college?
+    -what is the fee for civil engineering management quota students in this college?
+    -what is the fee for mechanical engineering  management quota students in this college?
+    -what is the fee for aeronautical engineering  management quota students in this college?
+    -what is the fee for aerospace engineering management quota students in this college?
+    -what is the fee for aiml management quota students in this college?
+    -what is the fee for aiml and ds management quota students in this college?
+
+- intent: fee_merit
+  examples:
+    -what is the fee structure in sjcit college for merit quota students?
+    -what is the fee for computer science(cse) and engineering merit quota students in this college?
+    -what is the fee for information science and engineering(ise) merit quota students in this college?
+    -what is the fee for electronics and communication engineering(ec) merit quota students in this college?
+    -what is the fee for civil engineering merit quota students in this college?
+    -what is the fee for mechanical engineering merit quota students in this college?
+    -what is the fee for aeronautical engineering merit quota students in this college?
+    -what is the fee for aerospace engineering merit quota students in this college?
+    -what is the fee for aiml merit quota students in this college?
+    -what is the fee for aiml and ds merit quota students in this college?
+
+- intent: hostel_bg_1
+  examples:
+    -do Sjcit  provides hostel facility ?
+    -is this college got hostel facilities?
+    -is sjcit college got girls hostel?
+    -is Sjcit  college got boys hostel?
+    -are hostel facility available in this college?
+

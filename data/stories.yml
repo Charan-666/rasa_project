@@ -1,0 +1,171 @@
+version: "3.1"
+
+stories:
+
+
+
+- story: way_1
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+- story: way_13
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+
+- story: way_2
+  steps:
+    - intent: high_package
+    - action: utter_pack
+
+
+
+- story: way_14
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: high_package
+    - action: utter_pack
+
+- story: way_3
+  steps:
+    - intent: admission_procedure
+    - action: utter_admit_prod
+
+
+
+- story: way_15
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: admission_procedure
+    - action: utter_admit_prod
+
+- story: way_4
+  steps:
+    - intent: ug_branches
+    - action: utter_ug_courses
+
+
+- story: way_16
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ug_branches
+    - action: utter_ug_courses
+
+
+- story: way_17
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pg_branches
+    - action: utter_pg_courses
+
+- story: way_5
+  steps:
+    - intent: pg_branches
+    - action: utter_pg_courses
+
+- story: way_6
+  steps:
+    - intent: eligibile_crt
+    - action: utter_eligible
+
+- story: way_18
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: eligibile_crt
+    - action: utter_eligible
+
+- story: way_7
+  steps:
+    - intent: contact_info
+    - action: utter_contact
+
+- story: way_19
+  steps:
+
+    - intent: greet
+    - action: utter_greet
+    - intent: contact_info
+    - action: utter_contact
+
+- story: way_8
+  steps:
+    - intent: location_info
+    - action:  utter_location
+
+- story: way_20
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: location_info
+    - action:  utter_location
+
+
+- story: way_9
+  steps:
+    - intent: company_vi
+    - action: utter_company
+
+
+- story: way_21
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: company_vi
+    - action: utter_company
+
+- story: way_30
+  steps:
+    - intent: place_percent
+    - action: utter_percent
+
+- story: way_22
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: place_percent
+    - action: utter_percent
+
+- story: way_10
+  steps:
+    - intent: fee_management
+    - action: utter_fee_manag
+
+- story: way_23
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: fee_management
+    - action: utter_fee_manag
+
+- story: way_11
+  steps:
+    - intent: fee_merit
+    - action: utter_fee_merit
+
+- story: way_24
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: fee_merit
+    - action: utter_fee_merit
+
+- story: way_12
+  steps:
+    - intent: hostel_bg_1
+    - action: utter_hostel
+
+- story: way_25
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: hostel_bg_1
+    - action: utter_hostel

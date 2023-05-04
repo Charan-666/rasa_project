@@ -1,0 +1,103 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+
+  - bot_challenge
+  - high_package
+  - admission_procedure
+  - ug_branches
+  - pg_branches
+  - eligibile_crt
+  - contact_info
+  - location_info
+  - company_vi
+  - place_percent
+  - fee_management
+  - fee_merit
+  - hostel_bg_1
+
+responses:
+  utter_greet:
+  - text: "Hey! how can i help you?"
+
+
+
+  utter_goodbye:
+  - text: "Bye have a nice day :)"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by sjcit."
+
+  utter_pack:
+  - text : "Sure, sjcit has a good track record in placements. it varies year to year and currently the highest package currently is 9LPA"
+
+  utter_admit_prod:
+  - text : "the admission process in sjcit goes like ,a student must passs all the  eligibility criteria that college has got ,and he or she must clear the kcet or jee mains or comedk exams according to the yearly cutoff for the college
+  for merit quota seat and there is 15% seat availability for management quota students also for further details please feel free to contact the staffs on this basis."
+
+  utter_ug_courses:
+    - text : "there are 9 different branches sjcit offers and those are:
+    1.computer science and engineering 
+    2.information science and engineering
+    3.electrical and communication engineering
+    4.civil engineering
+    5.mechanical engineering
+    6.aeronautical engineering 
+    7.aerospace engineering
+    8.AIML
+    9.AI and data science engineering"
+
+  utter_pg_courses:
+    - text : "there are 6 different branches sjcit offers for masters and those are:
+    1.MBA
+    2.M.Tech digital communication and networking
+    3.M.Tech structural engineering 
+    4.M.Tech computer science and engineering
+    5.M.Tech infrastructure engineering and management
+    6.M.Tech machine design"
+
+  utter_eligible:
+    - text : "eligibility criteria for BE students are :
+    Pass in 10+2 Or Equivalent with Physics and Mathematics as compulsory subjects, along with one of the following subjects: Chemistry, Bio-Technology, Computer Science, Biology, Electronics with not less than 45% of the aggregate marks in optional subjects with English as one of the Languages (40% in case of SC / ST / Other backward classes specified in the relevant Government order for the purpose of reservation only for Karnataka students) for admission to Engineering & Technology courses or Diploma holders who have secured 45% marks in appropriate branch of Engineering in final year Diploma. Foreign students are also admitted to B.E. Courses.
+    
+    ********************************************************************
+    eligibility criteria for M.Tech students are :
+    Pass with 50% aggregate marks in B.E. Or Equivalent Degree"
+
+  utter_contact:
+    -  text : "
+    -->Principal@sjcit.ac.in
+    -->Reception- 08156 200183
+    -->Registrar: 08156 200185
+    -->Principal: 08156 200184
+    -->Account Section: 08156 200187
+    -->Fax: 08156 200186"
+
+  utter_location:
+    - text : "The College Is Situated On Bangalore – Hyderabad National Highway-NH7, 45 Kms From Bangalore City About, 20 Kms From Kempe Gowda International Airport (Bangalore International Airport) And About 5 Kms From Muddenahalli, The Birth Place Of Sir M. Visvesvaraya. The Famous Hill Resort Nandi Hill Is About 15 Kms From The College.
+    BB Road, Chickballapur, 562101"
+
+  utter_company:
+    - text : "the companies visiting to our campus varies year to year and or likely the count always goes on increasing and on an average scale the companies visited so far is around 50 corporates
+    some of the top recruiters for our college are TCS,WIPRO,INFOSYS and many more as of now our students have got around 400 offer letters in hand last year.
+    "
+
+  utter_percent:
+    - text : "the placement cell in sjcit is very decent because very year around 98% of the students get placed ,and last year we had 100% placement which was a positive note."
+
+  utter_fee_manag:
+    - text : "fee structure for management quota students is 2,00,000(two lakhs) it varies year by year and also depends according to the stream opted
+    for further more details please do contact our accountancy section in the college."
+
+  utter_fee_merit:
+    - text : "fee structure for merit quota students is 90.050(ninty thousand fifty) it varies year by year and also depends according to the stream opted,before that please go through the kcet guidance regared the fee,and
+    for further more details please do contact our accountancy section in the college."
+
+  utter_hostel :
+    - text : "yes! sjcit do provide both girls as well as boys hostel facility both are walkable distance from the main college campus"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
